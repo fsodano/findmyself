@@ -40,6 +40,7 @@ async function* pair(originalMessage, matches, bot) {
 
   if (!randomMember) {
     yield {responseText: 'We couldn\'t find anyone to pair you with :(, try a random pair up by typing `pair me up`'};
+    return;
   }
 
   yield {responseText: `You've been paired up with <@${randomMember.id}>!`};

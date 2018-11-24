@@ -17,4 +17,6 @@ Techfugees 2018 Hackathon
 
 * `hello`, gives you general information of the bot usage
 * `pair me up` pairs you up with another participant randomly
-* `pair me up with :flag-**:` pairs you up with another participant of the selected country. 
+* `pair me up with :flag-**:` pairs you up with another participant of the selected country.
+
+Please note the `pair me up with :flag-**:` looks for flag emojis set as statuses on Slack. 
